@@ -1,0 +1,93 @@
+html{
+    width: 100%;
+    background: radial-gradient(circle,#fff,#ccc);
+}
+
+/* ------------------the container-------------- */
+#container{
+    background-color: aqua;
+    width:580px;
+    height: 400px;
+    margin:80px auto;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px rgb(92, 99, 114);
+    position: relative;
+
+}
+#score{
+    background-color: rgba(252, 252, 8, 0.822);
+    padding: 10px;
+    position:absolute;
+    box-shadow: 0 3px blueviolet;
+    left: 500px;
+}
+#correct{
+    position:absolute;
+    left:200px;
+    background-color: rgb(27, 214, 49);
+    padding: 10px;
+    display: none;
+}
+#wrong{
+    position:absolute;
+    left: 200px;
+    background-color: red;
+    padding: 10px;
+    display: none;
+}
+#question{
+    background-color: #9DA0EA;
+    width: 450px;
+    height: 130px;
+    margin:50px auto 10px auto;
+    box-shadow: 0 3px blueviolet;
+    font-size: 120px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#instruction{
+    background-color: rgb(188, 63, 192);
+    margin:10px auto;
+    width: 450px;
+    height: 50px;
+    text-align: center;
+    line-height:45px;
+    box-shadow: 0 3px blueviolet;
+}
+
+#choices{
+    width: 450px;
+    height: 100px;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 45px;
+    line-height: 80px;
+}
+.choice{
+    width: 85px;
+    height: 85px;
+    background-color: #fff;
+    float: left;
+    margin-right: 36px;
+    border-radius: 3px;
+    box-shadow: 0 3px rgb(73, 92, 28);
+    cursor: pointer;
+}
+#choice4{
+    margin-right: 0px;
+}
+
+#start{
+    background-color: #ccc;
+    padding: 10px;
+    width:95px;
+    height: 23px;
+    margin: 10px auto;
+    text-align: center;
+    box-shadow: 0 3px rgb(73, 92, 28);
+    border-radius: 5px;
+
+
+}
