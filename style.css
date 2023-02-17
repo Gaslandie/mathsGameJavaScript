@@ -24,7 +24,7 @@ html{
 }
 #correct{
     position:absolute;
-    left:200px;
+    left:300px;
     background-color: rgb(27, 214, 49);
     padding: 10px;
     display: none;
@@ -117,15 +117,15 @@ html{
 }
 
 #timing{
-    background-color: #ccc;
+    background-color: #eeeb3c;
     padding: 10px;
-    width:180px;
+    width:190px;
     height: 23px;
     box-shadow: 0 3px rgb(73, 92, 28);
     border-radius: 5px;
     position:absolute;
     top: 370px;
-    left: 395px;
+    left: 380px;
     /* visibility: hidden; */
     display: none;
 }
